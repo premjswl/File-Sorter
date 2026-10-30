@@ -4,7 +4,7 @@ import shutil
 from datetime import datetime
 from pathlib import Path
 
-DRY_RUN = False
+DRY_RUN = True
 
 FILE_BLUEPRINT = {
     ".jpg": "Photos", ".jpeg": "Photos", ".png": "Photos", ".gif": "Photos",

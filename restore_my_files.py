@@ -3,7 +3,7 @@ import shutil
 import sys
 from pathlib import Path
 
-DRY_RUN = False
+DRY_RUN = True
 
 LOG_DIR = Path.home() / "file_sort_logs"
 
